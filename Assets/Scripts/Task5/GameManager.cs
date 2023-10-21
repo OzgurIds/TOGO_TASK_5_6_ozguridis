@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public PlayerCont playersc;
     public GameObject spherepref, cubepref, cm1, cm2;
     public TextMeshProUGUI scoreboard;
-    public GameObject button,button2;
+    public GameObject button, button2;
     void Start()
     {
         score = 0;
@@ -22,8 +22,7 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Task5");
     }
-
-        public void Task6()
+    public void Task6()
     {
         SceneManager.LoadScene("Task6");
     }

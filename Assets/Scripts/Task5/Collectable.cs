@@ -49,8 +49,6 @@ public class Collectable : MonoBehaviour
                 }
                 break;
         }
-
-
     }
 
     public void GoTarget()
@@ -68,7 +66,5 @@ public class Collectable : MonoBehaviour
         {
             GoTarget();
         }
-
-
     }
 }

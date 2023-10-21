@@ -68,12 +68,8 @@ public class PlayerCont : MonoBehaviour
                 manager.button.SetActive(true);
                 manager.button2.SetActive(true);
                 break;
-
         }
-
-
     }
-
     public void Bagged(GameObject collected)
     {
         collected.transform.SetParent(bag);
